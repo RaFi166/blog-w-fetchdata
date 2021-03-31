@@ -1,13 +1,56 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+/*navbar*/
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar .contents{
+    margin-left: auto;
+    color: #001f3f;
+    letter-spacing: .1em;
+    font-weight: 800;
+}
+.contents a:hover{
+  color: #0074D9;
+  ;
+}
+
+.navbar a{
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar h1{
+  color: #3D9970;font-weight: 800;
+  letter-spacing: .2em;
+}
+
+
+.navbar h1:hover{
+  color: #39CCCC;
+  cursor: pointer;
+}
+
+/*blog */
+
+.blog {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
 }

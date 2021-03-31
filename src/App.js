@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Create from './Components/Create';
 
 function App() {
+
+  const title = "This is the title";
+  const count = 50;
+  const link = 'https://reactjs.org/docs/getting-started.html';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+
+      <div className="App">
+        <Navbar />
+
+        <div className='homepage'>
+          <Switch>
+            <Route exact path="/">
+            <Home />
+            </Route>
+
+            <Route path="/create">
+              <Create />
+            </Route>
+          
+          </Switch>
+          
+        </div>
+
+      </div>
+
+    </Router>
   );
 }
 
