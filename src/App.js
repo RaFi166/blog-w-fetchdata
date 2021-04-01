@@ -2,6 +2,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Components/Create';
+import NotFound from './Components/NotFound';
 
 function App() {
 
@@ -24,6 +25,10 @@ function App() {
 
             <Route path="/create">
               <Create />
+            </Route>
+
+            <Route path="*">
+              <NotFound/>
             </Route>
           
           </Switch>
