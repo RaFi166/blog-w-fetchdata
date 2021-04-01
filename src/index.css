@@ -54,3 +54,63 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+
+
+/*create*/
+
+.create-com {
+  width: 50%;
+  
+  margin: auto;
+
+}
+.title{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.title, .about, .author label{
+   margin: 20px 0px 20px 20px;
+}
+
+.title input{
+   width: 40%;
+   padding: 10px;
+   border-radius: 5px;
+   margin-left: 45px;
+   
+}
+
+.about input{
+    margin-left: 10px;
+    padding: 10px 0px 10px 0;
+    border-radius: 5px;
+    
+    width: 43%;
+}
+
+.author select{
+  margin-left: 65px;
+
+}
+.author option{
+  padding: 5px 2px 5px 2px;
+}
+
+.author{
+  padding-bottom: 10px;
+}
+
+.btn-submit{
+ 
+  text-align: center;
+  
+}
+
+button{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  
+}

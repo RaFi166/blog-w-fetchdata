@@ -1,16 +1,28 @@
 {
-"blogs":[
-{ "title": "My new website",
-    "body": "lorem ipsum...",
-    "author": "mario",
-   "id": 1 },
-
-    { "title": 
-        "Welcome party!",
-        "body": "lorem ipsum...", 
-        "author": "yoshi",
-        "id": 2 }
-
-  
-]
+  "blogs": [
+    {
+      "title": "My new website",
+      "body": "lorem ipsum...",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Welcome party!",
+      "body": "lorem ipsum...",
+      "author": "yoshi",
+      "id": 2
+    },
+    {
+      "title": " First Title",
+      "about": " This is my first title",
+      "author": "Mezbah",
+      "id": 3
+    },
+    {
+      "title": " First Title",
+      "about": " This is my first title",
+      "author": "Mezbah",
+      "id": 4
+    }
+  ]
 }

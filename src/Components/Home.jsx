@@ -12,7 +12,7 @@ function Home(){
 
     useEffect(function(){
         setTimeout(() => {
-            fetch("http://localhost:8000/blogss")
+            fetch("http://localhost:8000/blogs")
         .then((res)=>{
             if(!res.ok){
                 throw Error ("not found 😥");
